@@ -1,18 +1,19 @@
-The Collective Code Construction Contract (C4) is an evolution of the github.com [http://help.github.com/send-pull-requests/ Fork + Pull Model], aimed at providing an optimal collaboration model for free software projects. This is revision 1 of the C4 specification.
+The Proprietary Code Construction Contract (PC3) is a fork of the Collective Code Construction Contract (C4), tailored to the needs of proprietary software development.
 
-* Name: rfc.zeromq.org/spec:22/C4.1
-* Editor: Pieter Hintjens <ph@imatix.com>
-* State: stable
+* Name: PC3
+* Editor: Marat Ibadinov <ibadinov@me.com>
+* Original C4 editor: Pieter Hintjens <ph@imatix.com>
+* State: proposal
 
-++ Language
+## Language
 
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [http://tools.ietf.org/html/rfc2119 RFC 2119].
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 
-++ Goals
+## Goals
 
-C4 is meant to provide a reusable optimal collaboration model for open source software projects. It has these specific goals:
+PC3 is meant to provide a reusable optimal collaboration model for closed source software projects. It has these specific goals:
 
-* To maximize the scale of the community around a project, by reducing the friction for new Contributors and creating a scaled participation model with strong positive feedbacks;
+* Reduce the friction for new Contributors and create a scaled participation model with strong positive feedbacks;
 
 * To relieve dependencies on key individuals by separating different skill sets so that there is a larger pool of competence in any required domain;
 
@@ -22,11 +23,11 @@ C4 is meant to provide a reusable optimal collaboration model for open source so
 
 * To reduce the internal complexity of project repositories, thus making it easier for Contributors to participate and reducing the scope for error;
 
-* To enforce collective ownership of the project, which increases economic incentive to Contributors and reduces the risk of hijack by hostile entities.
+* To enforce proprietary ownership of the project, reduce the risk of hijack by hostile entities, and preserve common sense rights of individual contributors.
 
-++ Design
+## Design
 
-+++ Preliminaries
+### Preliminaries
 
 * The project SHALL use the git distributed revision control system.
 
@@ -36,6 +37,8 @@ C4 is meant to provide a reusable optimal collaboration model for open source so
 
 * The project SHOULD have clearly documented guidelines for code style.
 
+* A "Company" is a legal entity on behalf of which the project was created.
+
 * A "Contributor" is a person who wishes to provide a patch, being a set of commits that solve some clearly identified problem.
 
 * A "Maintainer" is a person who merge patches to the project. Maintainers are not developers; their job is to enforce process.
@@ -44,21 +47,21 @@ C4 is meant to provide a reusable optimal collaboration model for open source so
 
 * Maintainers SHALL have commit access to the repository.
 
-* Everyone, without distinction or discrimination, SHALL have an equal right to become a Contributor under the terms of this contract.
+* The Company MAY distinct and/or discriminate anyone in their right to become a Contributor under the terms of this contract.
 
-+++ Licensing and Ownership
+### Licensing and Ownership
 
-* The project SHALL use a share-alike license, such as the GPLv3 or a variant thereof (LGPL, AGPL), or the MPLv2.
+* The project SHALL use a proprietary license determined by the Company.
 
 * All contributions to the project source code ("patches") SHALL use the same license as the project.
 
-* All patches are owned by their authors. There SHALL NOT be any copyright assignment process.
+* All patches are owned by the Company. There MAY be a copyright assignment process.
 
-* The copyrights in the project SHALL be owned collectively by all its Contributors.
+* The copyrights in the project SHALL be owned by the Company.
 
-* Each Contributor SHALL be responsible for identifying themselves in the project Contributor list.
+* The company SHALL grant a permission, royalty-free and non-cancellable, to Contributors, to deal in their respective patches without restriction.
 
-+++ Patch Requirements
+### Patch Requirements
 
 * Maintainers and Contributors MUST have a Platform account and SHOULD use their real names or a well-known alias.
 
@@ -68,15 +71,15 @@ C4 is meant to provide a reusable optimal collaboration model for open source so
 
 * A patch MUST adhere to the "Evolution of Public Contracts" guidelines defined below.
 
-* A patch SHALL NOT include non-trivial code from other projects unless the Contributor is the original author of that code.
+* A patch SHALL NOT include non-trivial code from other projects unless the Contributor is the original author of that code and has the right to deal in it without restriction.
 
 * A patch MUST compile cleanly and pass project self-tests on at least the principle target platform.
 
-* A patch commit message SHOULD consist of a single short (less than 50 character) line summarizing the change, optionally followed by a blank line and then a more thorough description. 
+* A patch commit message SHOULD consist of a single short (less than 50 character) line summarizing the change, optionally followed by a blank line and then a more thorough description.
 
 * A "Correct Patch" is one that satisfies the above requirements.
 
-+++ Development Process
+### Development Process
 
 * Change on the project SHALL be governed by the pattern of accurately identifying problems and applying minimal, accurate solutions to these problems.
 
@@ -118,7 +121,7 @@ C4 is meant to provide a reusable optimal collaboration model for open source so
 
 * Maintainers MAY commit changes to non-source documentation directly to the project.
 
-+++ Creating Stable Releases
+### Creating Stable Releases
 
 * The project SHALL have one branch ("master") that always holds the latest in-progress version and SHOULD always build.
 
@@ -132,7 +135,7 @@ C4 is meant to provide a reusable optimal collaboration model for open source so
 
 * A patch to a stabilization project declared "stable" SHALL be accompanied by a reproducible test case.
 
-+++ Evolution of Public Contracts
+### Evolution of Public Contracts
 
 * All Public Contracts (APIs or protocols) SHOULD be documented.
 
@@ -150,24 +153,18 @@ C4 is meant to provide a reusable optimal collaboration model for open source so
 
 * When old names are removed, their implementations MUST provoke an exception (assertion) if used by applications.
 
-+++ Project Administration
+### Project Administration
 
-* The project founders SHALL act as Administrators to manage the set of project Maintainers.
-
-* The Administrators SHALL ensure their own succession over time by promoting the most effective Maintainers.
+* The Company's assignees SHALL act as Administrators to manage the set of project Maintainers.
 
 * A new Contributor who makes a correct patch SHALL be invited to become a Maintainer.
 
 * Administrators MAY remove Maintainers who are inactive for an extended period of time, or who repeatedly fail to apply this process accurately.
 
-++ Further Reading
+## Further Reading
 
-* [http://en.wikipedia.org/wiki/Chris_Argyris Argyris' Models 1 and 2] - the goals of C4.1 are consistent with Argyris' Model 2.
+* [The original C4.1 specification](http://rfc.zeromq.org/spec:22)
 
-* [http://en.wikipedia.org/wiki/Toyota_Kata Toyota Kata] - covering the Improvement Kata (fixing problems one at a time) and the Coaching Kata (helping others to learn the Improvement Kata).
+* [Argyris' Models 1 and 2](http://en.wikipedia.org/wiki/Chris_Argyris) - the goals of C4.1 are consistent with Argyris' Model 2.
 
-++ Implementations
-
-* The [http://zeromq.org ZeroMQ community] uses the C4.1 process for many projects.
-* [http://www.ossec.net/ OSSEC] [http://ossec-docs.readthedocs.org/en/latest/oRFC/orfc-1.html uses the C4.1 process].
-* The [http://zerovm.org ZeroVM] community uses [https://github.com/zerovm/zvm-community/blob/master/process/c4_1.md a C4.1 fork for their work]. 
+* [Toyota Kata](http://en.wikipedia.org/wiki/Toyota_Kata) - covering the Improvement Kata (fixing problems one at a time) and the Coaching Kata (helping others to learn the Improvement Kata).
