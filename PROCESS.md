@@ -157,7 +157,7 @@ PC3 is meant to provide a reusable optimal collaboration model for closed source
 
 * A new Contributor who makes a correct patch SHALL be invited to become a Maintainer.
 
-* Administrators MAY remove Maintainers who are inactive for an extended period of time, or who repeatedly fail to apply this process accurately.
+* It is NOT RECOMMENDED for administrators to remove Maintainers unless they are inactive for an extended period of time, or repeatedly fail to apply this process accurately.
 
 ## Further Reading
 
