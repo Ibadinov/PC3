@@ -69,7 +69,7 @@ PC3 is meant to provide a reusable optimal collaboration model for closed source
 
 * A patch MUST adhere to the "Evolution of Public Contracts" guidelines defined below.
 
-* A patch SHALL NOT include non-trivial code from other projects unless the Contributor is the original author of that code and has the right to deal in it without restriction.
+* A patch SHALL NOT include any pre-existing intellectual property unless the Contributor obtained the prior consent of the Company to the inclusion of such code.
 
 * A patch MUST compile cleanly and pass project self-tests on at least the principle target platform.
 
