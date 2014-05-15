@@ -3,7 +3,7 @@ The Proprietary Code Construction Contract (PC3) is a fork of the Collective Cod
 * Name: PC3
 * Editor: Marat Ibadinov <ibadinov@me.com>
 * Original C4 editor: Pieter Hintjens <ph@imatix.com>
-* State: proposal
+* State: raw
 
 ## Language
 
