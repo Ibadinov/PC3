@@ -23,7 +23,7 @@ PC3 is meant to provide a reusable optimal collaboration model for closed source
 
 * To reduce the internal complexity of project repositories, thus making it easier for Contributors to participate and reducing the scope for error;
 
-* To enforce proprietary ownership of the project, reduce the risk of hijack by hostile entities, and preserve common sense rights of individual contributors.
+* To enforce proprietary ownership of the project and reduce the risk of hijack by hostile entities.
 
 ## Design
 
@@ -58,8 +58,6 @@ PC3 is meant to provide a reusable optimal collaboration model for closed source
 * All patches are owned by the Company. There MAY be a copyright assignment process.
 
 * The copyrights in the project SHALL be owned by the Company.
-
-* The company SHALL grant a permission, royalty-free and non-cancellable, to Contributors, to deal in their respective patches without restriction.
 
 ### Patch Requirements
 
