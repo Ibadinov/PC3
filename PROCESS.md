@@ -55,7 +55,7 @@ PC3 is meant to provide a reusable optimal collaboration model for closed source
 
 * All contributions to the project source code ("patches") SHALL use the same license as the project.
 
-* All patches are owned by the Company. There MAY be a copyright assignment process.
+* All patches are owned by the Company. There SHALL be a copyright assignment process.
 
 * The copyrights in the project SHALL be owned by the Company.
 
