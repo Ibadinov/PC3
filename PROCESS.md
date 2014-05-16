@@ -49,11 +49,7 @@ PC3 is meant to provide a reusable optimal collaboration model for closed source
 
 * The Company MAY distinct and/or discriminate anyone in their right to become a Contributor under the terms of this contract.
 
-### Licensing and Ownership
-
-* The project SHALL use a proprietary license determined by the Company.
-
-* All contributions to the project source code ("patches") SHALL use the same license as the project.
+### Ownership
 
 * All patches are owned by the Company. There SHALL be a copyright assignment process.
 
