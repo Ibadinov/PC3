@@ -47,7 +47,7 @@ PC3 is meant to provide a reusable optimal collaboration model for closed source
 
 * Maintainers SHALL have commit access to the repository.
 
-* The Company MAY distinct and/or discriminate anyone in their right to become a Contributor under the terms of this contract.
+* It is NOT RECOMMENDED for the Company to distinct or discriminate it's employees/contractors in their right to become a Contributor under the terms of this contract.
 
 ### Ownership
 
