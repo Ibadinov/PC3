@@ -1,4 +1,4 @@
-The Proprietary Code Construction Contract (PC3) is a fork of the Collective Code Construction Contract (C4), tailored to the needs of proprietary software development.
+The Proprietary Code Construction Contract (PC3) is a fork of the [Collective Code Construction Contract (C4)](http://rfc.zeromq.org/spec:22), tailored to the needs of proprietary software development.
 
 * Name: PC3
 * Editor: Marat Ibadinov <ibadinov@me.com>
@@ -158,8 +158,6 @@ PC3 is meant to provide a reusable optimal collaboration model for closed source
 * It is NOT RECOMMENDED for administrators to remove Maintainers unless they are inactive for an extended period of time, or repeatedly fail to apply this process accurately.
 
 ## Further Reading
-
-* [The original C4.1 specification](http://rfc.zeromq.org/spec:22)
 
 * [Argyris' Models 1 and 2](http://en.wikipedia.org/wiki/Chris_Argyris) - the goals of C4.1 are consistent with Argyris' Model 2.
 
